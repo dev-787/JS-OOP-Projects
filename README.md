@@ -41,3 +41,49 @@ Build a cab service billing system where:
 ```
 node App.js
 ```
+# 🚂 Railway Ticket Booking System
+
+This project also includes a **Railway Ticket Booking System** implemented in JavaScript with Object-Oriented Programming.
+
+---
+
+## 📌 Problem Statement
+
+Build a railway ticket booking system where:
+
+- The user inputs **name**, **coach type**, **mobile number**
+- The system calculates the **total fare** including **5% GST**
+
+---
+
+## 🧠 OOP Concepts Used
+
+- **Class**: `RailwayTicket`
+- **Constructor**
+- **Methods**: `access()`, `display()`
+
+---
+
+## 🧾 Coach Type Fares
+
+| Coach Type | Base Fare |
+|------------|-----------|
+| Sleeper    | ₹200      |
+| AC         | ₹500      |
+| General    | ₹100      |
+
+> **Total Fare** is calculated as:  
+> **Base Fare + 5% GST**
+
+---
+
+## ▶️ How to Run
+
+1. Make sure `prompt-sync` is installed:
+```
+   npm install prompt-sync
+```
+2. Run the program:
+```
+node App1.js
+```
